@@ -1,0 +1,192 @@
+@CHARSET "UTF-8";
+.sbHolder{
+	background-color: #2d2d2d;
+	border: solid 1px #515151;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	height: 30px;
+	position: relative;
+	width: 200px;
+}
+.sbHolder:focus .sbSelector{
+	
+}
+.sbSelector{
+	display: block;
+	height: 30px;
+	left: 0;
+	line-height: 30px;
+	outline: none;
+	overflow: hidden;
+	position: absolute;
+	text-indent: 10px;
+	top: 0;
+	width: 170px;
+}
+.sbSelector:link, .sbSelector:visited, .sbSelector:hover{
+	color: #EBB52D;
+	outline: none;
+	text-decoration: none;
+}
+.sbToggle{
+	background: url(../images/buttom/btn_select.png) no-repeat;
+	display: block;
+	height: 6px;
+	outline: none;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 10px;
+}
+
+.sbHolderDisabled{
+	background-color: #3C3C3C;
+	border: solid 1px #515151;
+}
+.sbHolderDisabled .sbHolder{
+	
+}
+.sbHolderDisabled .sbToggle{
+	
+}
+.sbOptions{
+	background-color: #212121;
+	border: solid 1px #515151;
+	list-style: none;
+	left: -1px;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 30px;
+	width: 200px;
+	z-index: 1;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.sbOptions li{
+	padding: 0 7px;
+}
+.sbOptions a{
+	border-bottom: dotted 1px #515151;
+	display: block;
+	outline: none;
+	padding: 7px 0 7px 3px;
+}
+.sbOptions a:link, .sbOptions a:visited{
+	color: #ddd;
+	text-decoration: none;
+}
+.sbOptions a:hover,
+.sbOptions a:focus,
+.sbOptions a.sbFocus{
+	color: #EBB52D;
+}
+.sbOptions li.last a{
+	border-bottom: none;
+}
+.sbOptions .sbDisabled{
+	border-bottom: dotted 1px #515151;
+	color: #999;
+	display: block;
+	padding: 7px 0 7px 3px;
+}
+.sbOptions .sbGroup{
+	border-bottom: dotted 1px #515151;
+	color: #EBB52D;
+	display: block;
+	font-weight: bold;
+	padding: 7px 0 7px 3px;
+}
+.sbOptions .sbSub{
+	padding-left: 17px;
+}
+
+/*kenshin*/
+#header .header_bar .form_search .input .sbHolder{
+	float:left;
+	width:126px;
+	height:20px;
+	color:#444444;
+	background:none;
+	border:none;
+	z-index:10;
+}
+
+#header .header_bar .form_search .input .sbSelector{
+	width:110px;
+	height:20px;
+	color:#444444;
+	line-height:normal;
+	text-indent: 5px;
+	padding-top:2px;
+}
+
+#header .header_bar .form_search .input .sbToggle{
+	right:5px;
+	top:7px;
+}
+
+#header .header_bar .form_search .input .sbOptions{
+	width:126px;
+	background-color:#fff;
+}
+
+#header .header_bar .form_search .input .sbOptions a{
+	color:#444444;
+}
+
+#header .header_bar .form_search .input .sbOptions a:hover{
+	color:#FBDA05;
+}
+
+#select_year_production .sbHolder{
+	background:url(../images/bg/bg_select_year_production.jpg) repeat-x;
+	width:55px;
+	height:17px;
+	border:1px solid #d1d1d1;
+}
+
+#select_year_production .sbSelector{
+	height:17px;
+	width:43px;
+	line-height:19px;
+	color:#333333;
+	text-align:center;
+	text-indent: 0;
+	padding-right:12px;
+}
+
+#select_year_production .sbToggle{
+	right: 8px;
+    top: 6px;
+}
+
+#select_year_production .sbOptions{
+	width:53px;
+	height:123px;
+	border:none;
+	background:url(../images/bg/-bg_select_open.png) no-repeat;
+	*background-repeat:repeat-y;
+	padding:0 27px 0 11px;
+	top:-1px !important;
+	left:-6px;
+}
+
+#select_year_production .sbOptions li{
+	display:block;
+	width:53px;
+	padding:0;
+}
+
+#select_year_production .sbOptions li a{
+	font-size:11px;
+	color:#333333;
+	height:15px;
+	padding:8px 0 0 3px;
+}
+
+#select_year_production .sbOptions li a:hover{
+	background:#98cdff;
+}
+/*end kenshin*/
