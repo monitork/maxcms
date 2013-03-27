@@ -1,0 +1,10 @@
+1. Modules MVC - HMVC
+- MY_Loader
+- MY_Model
+- MY_Router
+- MX (Folder: application/third_party)
+
+2. Language (http://maestric.com/doc/php/codeigniter_i18n)
+- MY_Lang
+- MY_Config
+- language_helper (system/helpers)

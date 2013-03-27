@@ -1,0 +1,98 @@
+/* ===== Custom Forms ===== */
+
+/* Inputs */ 
+.jqTransformInputWrapper { float: left; }
+.jqTransformInputWrapper > div { width: 550px; }
+
+.mainForm input[type=text], .mainForm textarea, .mainForm input[type=password] { background: #fff; width: 100%; border: 1px solid #d5d5d5; padding: 5px; font-size: 11px; font-family: Arial, Helvetica, sans-serif; }
+.mainForm input[type=text]:hover, .mainForm input[type=password]:hover, .mainForm textarea:hover { background: #fcfcfc; border: 1px solid #d1d1d1; }
+.mainForm input[type=text]:focus, .mainForm input[type=password]:focus, .mainForm textarea:focus { border: 1px solid #bbc1c9; background: #fff; }
+
+.submitForm { float: right; margin: 1px 14px 22px 14px; }
+
+.jqTransformInputWrapper_hover input{ background: #f6f6f6; }
+.jqTransformInputWrapper_focus input { background: #f6f6f6; border: 1px solid #cad1d4; }
+
+.jqTransformSafari .jqTransformInputInner div { position: relative; overflow: hidden; margin:0px 8px; }
+.jqTransformSafari .jqTransformInputInner div input { background: none; position: absolute; top: -10px; left: -2px; height: 42px; padding-left: 4px; }
+
+
+/* Radios */
+.jqTransformRadioWrapper {float: left;display:block; margin-top:5px;}
+.jqTransformRadio { background: transparent url(../../images/admin/forms/radio.png) no-repeat 0 0; vertical-align: middle; height: 15px; width: 15px; display: block; }
+
+
+/* Checkboxes */
+span.jqTransformCheckboxWrapper{ display:block;float:left; }
+a.jqTransformCheckbox { background: transparent url(../../images/admin/forms/checkbox.png) no-repeat 0 0px ; vertical-align: middle; height: 15px; width: 15px; display:block;/*display: -moz-inline-block;*/ }
+
+a.jqTransformChecked { background-position: center bottom;} /* Checked - Used for both Radio and Checkbox */
+
+/* Selects */
+.jqTransformSelectWrapper { width: 42px; position:relative; height: 26px; background: url(../../images/admin/forms/select_left.png) no-repeat top left; float:left; min-width: 60px; }
+.jqTransformSelectWrapper div span { font-size: 11px; float: none; position: absolute; white-space: nowrap; height: 26px; line-height: 26px; padding-left: 8px; overflow: hidden; cursor: pointer; }
+.jqTransformSelectWrapper  a.jqTransformSelectOpen { position: absolute; right: -2px; width: 25px; height: 26px; background: url(../../images/admin/forms/select_right.png) no-repeat center center; top: 0; }
+.jqTransformSelectWrapper ul { position: absolute; min-width: 45px; top: 27px; left: 0px; list-style: none; background-color: #FFF; border: solid 1px #CCC; display: none; margin: 0px; padding: 0px; height: 168px; overflow: auto; 	overflow-y: auto; z-index:10; }
+.jqTransformSelectWrapper ul a { display: block; padding: 2px 8px; text-decoration: none; color:#333; background-color: #FFF; font-size: 11px; }
+.jqTransformSelectWrapper ul li:first-child { margin-top: 0px; }
+.jqTransformSelectWrapper ul a.selected { background: #EDEDED; color: #333; }
+.jqTransformSelectWrapper ul a:hover, .jqTransformSelectWrapper ul a.selected:hover { background:#00b3f1; color: #fff; }
+
+.jqTransformHidden {display: none;} /* used to hide the original form elements */
+
+/* ===== File uploader  ===== */
+#uploader{ border: 1px solid #d5d5d5; }
+.plupload_button { font-size: 10px; font-weight: bold; text-transform: uppercase; color: #fff; line-height: 12px; margin-top: 3px; }
+
+.plupload_start { float: left; background: url(../../images/admin/uploader/greenBtn.png) repeat-x 0 0; border: 1px solid #418d4f; }
+.plupload_start span { background: url(../../images/admin/uploader/upload.png) no-repeat 10px; padding: 5px 13px 6px 26px; display: block;  }
+.plupload_start:hover { background-position: 0 -25px; text-decoration: none; }
+.plupload_start:active { background-position: 0 -50px; }
+
+.plupload_disabled, a.plupload_disabled:hover { color: #a6a6a6; border: 1px solid #e9e9e9; background: url(../../images/admin/uploader/uploadDisabled.png) repeat-x; cursor: default; }
+.plupload_disabled span { padding: 5px 13px 6px 13px; }
+
+.plupload_add { margin-right: 10px; background: url(../../images/admin/uploader/greyishBtn.png) repeat-x 0 0; border: 1px solid #4F5A68; float: left; }
+.plupload_add span { background: url(../../images/admin/uploader/add.png) no-repeat 10px; padding: 5px 13px 6px 26px; display: block; }
+.plupload_add:hover { background-position: 0 -25px; text-decoration: none; }
+.plupload_add:active { background-position: 0 -50px; }
+
+.plupload_wrapper { font-size: 11px;; width: 100%; }
+
+.plupload_container {  }
+.plupload_container input { border: 1px solid #DDD; font-size: 11px; width: 98%; }
+
+.plupload_filelist { margin: 0; padding: 0; list-style: none; }
+.plupload_scroll .plupload_filelist { height: 174px; background: #fafafa; overflow-y: scroll; }
+.plupload_filelist li { padding: 10px 12px; background: whiteSmoke; border-bottom: 1px solid #E7E7E7; }
+.plupload_filelist li:hover { background: #fdfdfd; }
+
+.plupload_filelist_header, .plupload_filelist_footer { background: #EFEFEF url(../../images/admin/uploader/leftNavBg.png) repeat-x; padding: 5px 12px; color: #878787; height: 14px; }
+.plupload_filelist_header {	border-bottom: 1px solid #d5d5d5; }
+
+.plupload_filelist_footer { border-top: 1px solid #D5D5D5; height: 31px; line-height: 30px; vertical-align: middle; } 
+.plupload_file_name { float: left; overflow: hidden; }
+.plupload_file_status { color: #777; }
+.plupload_file_status span {}
+.plupload_file_size, .plupload_file_status, .plupload_progress { float: right; width: 80px; }
+.plupload_file_size, .plupload_file_status, .plupload_file_action { text-align: right; }
+.plupload_filelist .plupload_file_name { width: 205px; }
+.plupload_file_action { float: right; width: 14px; height: 14px; margin-left: 15px; }
+.plupload_file_action * { display: none; width: 14px; height: 14px; }
+
+li.plupload_uploading {  }
+li.plupload_done { color: #AAA; }
+li.plupload_delete a { background: url(../../images/admin/uploader/deleteFile.png) no-repeat 0; }
+li.plupload_failed a { background: url(../../images/admin/uploader/error.png) no-repeat 0; cursor: default; }
+li.plupload_done a { background: url(../../images/admin/uploader/uploaded.png) no-repeat 0; cursor: default; }
+
+.plupload_progress, .plupload_upload_status { display: none; }
+.plupload_progress_container { margin-top: 10px; border: 1px solid #CCC; background: #FFF; padding: 1px; }
+.plupload_progress_bar { width: 0px; height: 7px; background: #CDEB8B; }
+.plupload_scroll .plupload_filelist_header .plupload_file_action, .plupload_scroll .plupload_filelist_footer .plupload_file_action { margin-right: 17px; }
+
+.plupload_clear,.plupload_clearer { clear: both; }
+.plupload_clearer, .plupload_progress_bar { display: block; font-size: 0; line-height: 0; }
+
+li.plupload_droptext { background: transparent; text-align: center; vertical-align: middle; border: 0; line-height: 154px; }
+/* ===== End File uploader  ===== */
