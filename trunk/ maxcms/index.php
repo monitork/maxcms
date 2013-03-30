@@ -193,7 +193,7 @@ if (defined('ENVIRONMENT'))
 
 //Config Folder
 date_default_timezone_set('Asia/Ho_Chi_Minh');
-define('FOLDER', '/news/');
+define('FOLDER', '/maxcms/');
 if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS']=='on'){
 	define('PATH_URL', 'https://'.$_SERVER['HTTP_HOST'].FOLDER);
 }else{
@@ -202,7 +202,7 @@ if(isset($_SERVER['HTTPS']) && $_SERVER['HTTPS']=='on'){
 define('BASEFOLDER', substr(BASEPATH, 0, count(BASEPATH)-8));
 define('PREFIX', 'cli_');
 define('DB_USER', 'root');
-define('DB_PASS', 'root');
+define('DB_PASS', '');
 define('DB_NAME', 'new_maxgame');
 
 //Config DIR Upload
