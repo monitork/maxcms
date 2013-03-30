@@ -67,7 +67,7 @@ $db['default']['stricton'] = FALSE;
 
 $db['autobay_old']['hostname'] = 'localhost';
 $db['autobay_old']['username'] = 'root';
-$db['autobay_old']['password'] = '123456';
+$db['autobay_old']['password'] = '';
 $db['autobay_old']['database'] = '2012_autobay_old';
 $db['autobay_old']['dbdriver'] = 'mysql';
 $db['autobay_old']['dbprefix'] = '';
